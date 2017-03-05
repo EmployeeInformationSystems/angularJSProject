@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get Employee</title>
+<script src="js/angular.min.js"></script>
+<script src="js/employee.js"></script>
+</head>
+<body>
+		<div ng-app="getEmployee" ng-controller="getEmployeeController" >
+		  <h1 ng-repeat="employee in employees">{{employee.firstName}}</h1>			
+		</div>
+	</body>
+
+</html>
